@@ -1,0 +1,1344 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+}
+
+.container img {
+    width: 100%;
+    height: 100vh;
+    opacity: 0.8;
+}
+
+.header {
+    width: 100%;
+    height: 12vh;
+    /* background-color: red; */
+    position: absolute;
+    top: 0;
+    z-index: 1;
+}
+
+.logo {
+    padding: 0 100px;
+    line-height: 70px;
+}
+
+.logo h1 {
+    font-size: 30px;
+}
+
+.logo span {
+    color: orangered;
+}
+
+.navigation {
+    float: right;
+    margin-right: 100px;
+    margin-top: -45px;
+}
+
+.navigation a {
+    text-decoration: none;
+    font-size: 14px;
+    color: white;
+    padding: 0 20px;
+    font-weight: bold;
+}
+
+.home_body {
+    position: absolute;
+    top: 25%;
+    color: white;
+}
+
+.home_body h1 {
+    margin-left: 400px;
+    font-size: 50px;
+}
+
+.home_body span {
+    position: relative;
+    top: 4px;
+    left: 51%;
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.look {
+    width: 90%;
+    margin-left: 30%;
+    margin-top: 30px;
+}
+
+.look span {
+    font-weight: 100;
+    font-size: 16px;
+    margin-left: -30%;
+    position: relative;
+    top: 10px;
+}
+
+.button {
+    width: 18%;
+    height: 8vh;
+    background-color: #D8B227;
+    position: relative;
+    left: 63%;
+    top: 50px;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+.button p {
+    text-align: center;
+    position: relative;
+    top: 18px;
+    font-weight: 600;
+    font-size: 13px;
+}
+
+.button:hover {
+    border: 2px solid silver;
+    background-color: transparent;
+}
+
+.fluid {
+    width: 100%;
+    height: 100vh;
+}
+
+.fluid h1 {
+    color: rgb(22, 26, 47);
+    text-align: center;
+    position: relative;
+    top: 15%;
+    font-size: 40px;
+}
+
+.fluid p {
+    color: rgb(22, 26, 47);
+    text-align: center;
+    position: relative;
+    top: 18%;
+    font-size: 18px;
+}
+
+.interior {
+    width: 25%;
+    height: 33vh;
+    /* background-color: red; */
+    position: relative;
+    top: 35%;
+    left: 10%;
+    border: 1px solid rgb(236, 236, 236);
+    border-radius: 15px;
+}
+
+.interior h1 {
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.interior p {
+    width: 86%;
+    position: relative;
+    left: 20px;
+    font-size: 17px;
+    top: 65px;
+}
+
+.interior:hover {
+    background-color: rgb(20, 20, 43);
+    transition: 0.4s;
+}
+
+.interior:hover h1 {
+    color: #D8B227;
+}
+
+.interior:hover p {
+    color: gray;
+}
+
+.architecture {
+    width: 25%;
+    height: 33vh;
+    /* background-color: blue; */
+    position: relative;
+    top: 18px;
+    left: 38%;
+    border: 1px solid rgb(236, 236, 236);
+    border-radius: 15px;
+}
+
+.architecture h1 {
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.architecture p {
+    width: 86%;
+    position: relative;
+    left: 20px;
+    font-size: 17px;
+    top: 65px;
+}
+
+.architecture:hover {
+    background-color: rgb(20, 20, 43);
+    transition: 0.4s;
+}
+
+.architecture:hover h1 {
+    color: #D8B227;
+}
+
+.architecture:hover p {
+    color: gray;
+}
+
+.concept {
+    width: 25%;
+    height: 33vh;
+    /* background-color: teal; */
+    position: relative;
+    top: -180px;
+    left: 66%;
+    border: 1px solid rgb(236, 236, 236);
+    border-radius: 15px;
+}
+
+.concept h1 {
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.concept p {
+    width: 86%;
+    position: relative;
+    left: 20px;
+    top: 65px;
+    font-size: 17px;
+}
+
+.concept:hover {
+    background-color: rgb(20, 20, 43);
+    transition: 0.4s;
+}
+
+.concept:hover h1 {
+    color: #D8B227;
+}
+
+.concept:hover p {
+    color: gray;
+}
+
+.work {
+    width: 100%;
+    height: 170%;
+    background-color: rgb(240, 240, 240);
+    position: absolute;
+}
+
+.work h1 {
+    text-align: center;
+    color: rgb(22, 26, 47);
+    font-size: 40px;
+    margin-top: 50px;
+}
+
+.work p {
+    text-align: center;
+    margin-top: 20px;
+    color: rgb(22, 26, 47);
+    font-size: 18px;
+}
+
+.inter {
+    position: relative;
+    top: 200px;
+}
+
+.six {
+    width: 50%;
+    margin-left: 7%;
+    /* background-color: red; */
+    position: absolute;
+    top: 12px;
+}
+
+.six img {
+    width: 100%;
+    height: 65vh;
+    border: none;
+    border-radius: 10px;
+}
+
+.hover {
+    width: 94%;
+    height: 59vh;
+    background-color: rgba(69, 54, 54, 0.925);
+    position: absolute;
+    top: 20px;
+    left: 3%;
+    border-radius: 10px;
+    border: 1px solid #D8B227;
+    display: none;
+}
+
+.hover p {
+    text-align: center;
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+    position: relative;
+    top: 150px;
+}
+
+.hover .p {
+    width: 80%;
+    height: 1px;
+    background-color: #D8B227;
+    position: relative;
+    top: 170px;
+    left: 10%;
+}
+
+.more {
+    width: 18%;
+    height: 8vh;
+    background-color: #D8B227;
+    position: relative;
+    left: 41%;
+    top: 200px;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+.more p {
+    text-align: center;
+    position: relative;
+    top: 18px;
+    font-weight: 600;
+    font-size: 13px;
+}
+
+.more:hover {
+    border: 1px solid silver;
+    background-color: transparent;
+}
+
+.six:hover .hover {
+    display: block;
+    transition: 0.5s;
+}
+
+.small {
+    width: 35%;
+    /* background-color: red; */
+    position: absolute;
+    top: 12px;
+    right: 7%;
+}
+
+.small img {
+    width: 100%;
+    height: 65vh;
+    border: none;
+    border-radius: 10px;
+}
+
+.have {
+    width: 94%;
+    height: 59vh;
+    background-color: rgba(69, 54, 54, 0.925);
+    position: absolute;
+    top: 20px;
+    left: 3%;
+    border-radius: 10px;
+    border: 1px solid #D8B227;
+    display: none;
+}
+
+.have p {
+    text-align: center;
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+    position: relative;
+    top: 150px;
+}
+
+.have .p {
+    width: 80%;
+    height: 1px;
+    background-color: #D8B227;
+    position: relative;
+    top: 170px;
+    left: 10%;
+}
+
+.mor {
+    width: 30%;
+    height: 8vh;
+    background-color: #D8B227;
+    position: relative;
+    left: 35%;
+    top: 200px;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+.mor p {
+    text-align: center;
+    position: relative;
+    top: 18px;
+    font-weight: 600;
+    font-size: 13px;
+}
+
+.mor:hover {
+    border: 1px solid silver;
+    background-color: transparent;
+}
+
+.small:hover .have {
+    display: block;
+    transition: 0.5s;
+}
+
+
+.second {
+    width: 35%;
+    /* background-color: red; */
+    position: absolute;
+    top: 440px;
+    left: 7%;
+}
+
+.second img {
+    width: 100%;
+    height: 65vh;
+    border: none;
+    border-radius: 10px;
+}
+
+.has {
+    width: 94%;
+    height: 59vh;
+    background-color: rgba(69, 54, 54, 0.925);
+    position: absolute;
+    top: 20px;
+    left: 3%;
+    border-radius: 10px;
+    border: 1px solid #D8B227;
+    display: none;
+}
+
+.has p {
+    text-align: center;
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+    position: relative;
+    top: 150px;
+}
+
+.has .p {
+    width: 80%;
+    height: 1px;
+    background-color: #D8B227;
+    position: relative;
+    top: 170px;
+    left: 10%;
+}
+
+.mores {
+    width: 30%;
+    height: 8vh;
+    background-color: #D8B227;
+    position: relative;
+    left: 35%;
+    top: 200px;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+.mores p {
+    text-align: center;
+    position: relative;
+    top: 18px;
+    font-weight: 600;
+    font-size: 13px;
+}
+
+.mores:hover {
+    border: 1px solid silver;
+    background-color: transparent;
+}
+
+.second:hover .has {
+    display: block;
+    transition: 0.5s;
+}
+
+
+.fab {
+    width: 50%;
+    margin-left: 7%;
+    /* background-color: red; */
+    position: absolute;
+    top: 440px;
+    left: 36%;
+}
+
+.fab img {
+    width: 100%;
+    height: 65vh;
+    border: none;
+    border-radius: 10px;
+}
+
+.hov {
+    width: 94%;
+    height: 59vh;
+    background-color: rgba(69, 54, 54, 0.925);
+    position: absolute;
+    top: 20px;
+    left: 3%;
+    border-radius: 10px;
+    border: 1px solid #D8B227;
+    display: none;
+}
+
+.hov p {
+    text-align: center;
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+    position: relative;
+    top: 150px;
+}
+
+.hov .p {
+    width: 80%;
+    height: 1px;
+    background-color: #D8B227;
+    position: relative;
+    top: 170px;
+    left: 10%;
+}
+
+.lax {
+    width: 18%;
+    height: 8vh;
+    background-color: #D8B227;
+    position: relative;
+    left: 41%;
+    top: 200px;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+.lax p {
+    text-align: center;
+    position: relative;
+    top: 18px;
+    font-weight: 600;
+    font-size: 13px;
+}
+
+.lax:hover {
+    border: 1px solid silver;
+    background-color: transparent;
+}
+
+.fab:hover .hov {
+    display: block;
+    transition: 0.5s;
+}
+
+
+/* .other {
+    width: 100%;
+    height: 100vh;
+    background-color: red;
+    position: absolute;
+    top: 380%;
+} */
+
+.other {
+    width: 100%;
+    height: 100%;
+    background-color: #D8B227;
+    position: absolute;
+    top: 380%;
+}
+
+.other h1 {
+    text-align: center;
+    color: rgb(22, 26, 47);
+    font-size: 40px;
+    margin-top: 45px;
+}
+
+.other p {
+    text-align: center;
+    margin-top: 15px;
+    color: rgb(22, 26, 47);
+    font-size: 16px;
+}
+
+.expert {
+    width: 25%;
+    height: 25vh;
+    background-color: white;
+    position: absolute;
+    top: 420%;
+    left: 10%;
+    /* border: 2px solid rgb(210, 210, 210); */
+    border-radius: 15px;
+    border: none;
+}
+
+.expert h1 {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.expert p {
+    width: 86%;
+    position: relative;
+    left: 20px;
+    font-size: 16px;
+    top: 25px;
+    color: gray;
+}
+
+.expert:hover {
+    background-color: rgb(20, 20, 43);
+    transition: 0.4s;
+    border: none;
+}
+
+.expert:hover h1 {
+    color: #D8B227;
+}
+
+.expert:hover p {
+    color: gray;
+}
+
+.professional {
+    width: 25%;
+    height: 25vh;
+    position: absolute;
+    top: 420%;
+    left: 38%;
+    /* border: 2px solid rgb(210, 210, 210); */
+    border-radius: 15px;
+    border: none;
+    background-color: white;
+}
+
+.professional h1 {
+    text-align: center;
+    font-size: 20px;
+    cursor: pointer;
+    margin-top: 30px;
+}
+
+.professional p {
+    width: 86%;
+    position: relative;
+    left: 20px;
+    font-size: 16px;
+    top: 25px;
+    color: gray;
+}
+
+.professional:hover {
+    background-color: rgb(20, 20, 43);
+    transition: 0.4s;
+}
+
+.professional:hover h1 {
+    color: #D8B227;
+}
+
+.professional:hover p {
+    color: gray;
+}
+
+.great {
+    width: 25%;
+    height: 25vh;
+    position: absolute;
+    top: 420%;
+    left: 66%;
+    /* border: 2px solid rgb(210, 210, 210); */
+    border-radius: 15px;
+    border: none;
+    background-color: white;
+}
+
+.great h1 {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.great p {
+    width: 86%;
+    position: relative;
+    left: 20px;
+    top: 25px;
+    font-size: 16px;
+    color: gray;
+}
+
+.great:hover {
+    background-color: rgb(20, 20, 43);
+    transition: 0.4s;
+}
+
+.great:hover h1 {
+    color: #D8B227;
+}
+
+.great:hover p {
+    color: gray;
+}
+
+.skills {
+    width: 25%;
+    height: 25vh;
+    background-color: white;
+    position: absolute;
+    top: 450%;
+    left: 10%;
+    border-radius: 15px;
+    border: none;
+}
+
+.skills h1 {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.skills p {
+    width: 86%;
+    position: relative;
+    left: 20px;
+    font-size: 16px;
+    top: 25px;
+    color: gray;
+}
+
+.skills:hover {
+    background-color: rgb(20, 20, 43);
+    transition: 0.4s;
+    border: none;
+}
+
+.skills:hover h1 {
+    color: #D8B227;
+}
+
+.skills:hover p {
+    color: gray;
+}
+
+.recomended {
+    width: 25%;
+    height: 28vh;
+    position: absolute;
+    top: 450%;
+    left: 38%;
+    border-radius: 15px;
+    border: none;
+    background-color: white;
+}
+
+.recomended h1 {
+    text-align: center;
+    font-size: 20px;
+    cursor: pointer;
+    margin-top: 30px;
+}
+
+.recomended p {
+    width: 86%;
+    position: relative;
+    left: 20px;
+    font-size: 16px;
+    top: 25px;
+    color: gray;
+}
+
+.recomended:hover {
+    background-color: rgb(20, 20, 43);
+    transition: 0.4s;
+}
+
+.recomended:hover h1 {
+    color: #D8B227;
+}
+
+.recomended:hover p {
+    color: gray;
+}
+
+
+.positive {
+    width: 25%;
+    height: 25vh;
+    position: absolute;
+    top: 450%;
+    left: 66%;
+    border-radius: 15px;
+    border: none;
+    background-color: white;
+}
+
+.positive h1 {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.positive p {
+    width: 86%;
+    position: relative;
+    left: 20px;
+    top: 25px;
+    font-size: 16px;
+    color: gray;
+}
+
+.positive:hover {
+    background-color: rgb(20, 20, 43);
+    transition: 0.4s;
+}
+
+.positive:hover h1 {
+    color: #D8B227;
+}
+
+.positive:hover p {
+    color: gray;
+}
+
+.testimonial {
+    width: 100%;
+    height: 100vh;
+    /* background-color: red; */
+    position: absolute;
+    top: 485%;
+}
+
+.testimonial h1 {
+    text-align: center;
+    color: rgb(22, 26, 47);
+    font-size: 40px;
+    margin-top: 10px;
+}
+
+.testimonial p {
+    text-align: center;
+    margin-top: 15px;
+    color: rgb(22, 26, 47);
+    font-size: 16px;
+}
+
+.fabrice {
+    width: 42%;
+    height: 35vh;
+    /* background-color: red; */
+    margin-left: 7%;
+    margin-top: 5%;
+    border: 1px solid silver;
+    border-radius: 10px;
+}
+
+.fabrice img {
+    width: 7%;
+    border-radius: 50%;
+    position: relative;
+    top: 25px;
+    left: 20px;
+    cursor: pointer;
+}
+
+.rice {
+    width: 80%;
+    height: 25vh;
+    /* background-color: red; */
+    position: relative;
+    left: 15%;
+    /* top: -10px; */
+}
+
+.rice span {
+    font-size: 16px;
+    position: relative;
+    left: 10px;
+    line-height: 25px;
+}
+
+.rice p {
+    position: relative;
+    left: -150px;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.fabrice:hover .rice p {
+    color: #D8B227;
+}
+
+.ishimwe {
+    width: 42%;
+    height: 35vh;
+    /* background-color: red; */
+    position: absolute;
+    right: 7%;
+    margin-top: -215.5px;
+    border: 1px solid silver;
+    border-radius: 10px;
+}
+
+.ishimwe img {
+    width: 7%;
+    border-radius: 50%;
+    position: relative;
+    top: 25px;
+    left: 20px;
+    cursor: pointer;
+}
+
+.rice {
+    width: 80%;
+    height: 25vh;
+    /* background-color: red; */
+    position: relative;
+    left: 15%;
+    /* top: -10px; */
+}
+
+.rice span {
+    font-size: 16px;
+    position: relative;
+    left: 10px;
+    line-height: 25px;
+}
+
+.rice p {
+    position: relative;
+    left: -150px;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.ishimwe:hover .rice p {
+    color: #D8B227;
+}
+
+
+.tuyishime {
+    width: 42%;
+    height: 34vh;
+    /* background-color: red; */
+    margin-left: 7%;
+    margin-top: 2%;
+    border: 1px solid silver;
+    border-radius: 10px;
+}
+
+.tuyishime img {
+    width: 7%;
+    border-radius: 50%;
+    position: relative;
+    top: 25px;
+    left: 20px;
+    cursor: pointer;
+}
+
+.rice {
+    width: 80%;
+    height: 25vh;
+    /* background-color: red; */
+    position: relative;
+    left: 15%;
+    /* top: -10px; */
+}
+
+.rice span {
+    font-size: 16px;
+    position: relative;
+    left: 10px;
+    line-height: 25px;
+}
+
+.rice p {
+    position: relative;
+    left: -150px;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.tuyishime:hover .rice p {
+    color: #D8B227;
+}
+
+.emmanuel {
+    width: 42%;
+    height: 34vh;
+    /* background-color: red; */
+    position: absolute;
+    right: 7%;
+    margin-top: -210px;
+    border: 1px solid silver;
+    border-radius: 10px;
+}
+
+.emmanuel img {
+    width: 7%;
+    border-radius: 50%;
+    position: relative;
+    top: 25px;
+    left: 20px;
+    cursor: pointer;
+}
+
+.rice {
+    width: 80%;
+    height: 25vh;
+    /* background-color: red; */
+    position: relative;
+    left: 15%;
+    /* top: -10px; */
+}
+
+.rice span {
+    font-size: 16px;
+    position: relative;
+    left: 10px;
+    line-height: 25px;
+}
+
+.rice p {
+    position: relative;
+    left: -150px;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.emmanuel:hover .rice p {
+    color: #D8B227;
+}
+
+.background {
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(240, 240, 240);
+    position: absolute;
+    top: 590%;
+}
+
+.background img {
+    width: 86%;
+    height: 90vh;
+    position: absolute;
+    left: 7%;
+    top: 35px;
+    border-radius: 10px;
+    opacity: 0.7;
+}
+
+.truth {
+    position: relative;
+    text-align: center;
+    top: 35%;
+    /* color: white; */
+    font-weight: 600;
+    font-size: 40px;
+}
+
+.truth span {
+    position: relative;
+    top: 10px;
+}
+
+.text {
+    width: 80%;
+    height: 10vh;
+    font-weight: 100;
+    position: relative;
+    left: 10%;
+    top: 20px;
+    font-size: 17px;
+}
+
+.btn {
+    width: 18%;
+    height: 8vh;
+    background-color: #D8B227;
+    position: relative;
+    left: 40%;
+    top: 50px;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+.btn p {
+    text-align: center;
+    position: relative;
+    top: 18px;
+    font-weight: 600;
+    font-size: 13px;
+}
+
+.btn:hover {
+    border: 2px solid #D8B227;
+    background-color: transparent;
+}
+
+.npd {
+    width: 100%;
+    height: 20vh;
+    position: absolute;
+    top: 690%;
+}
+
+.np img {
+    width: 8%;
+    margin-left: 5%;
+}
+
+.rubis {
+    position: absolute;
+    left: 20%;
+    top: -1px;
+}
+
+.rubis img {
+    width: 70%;
+}
+
+.arr {
+    position: absolute;
+    left: 51%;
+    top: 45px;
+}
+
+.perfect {
+    position: absolute;
+    left: 78%;
+    top: -1px;
+}
+
+.perfect img {
+    width: 60%;
+}
+
+.footer {
+    width: 100%;
+    height: 50vh;
+    background: rgb(232, 231, 231);
+    position: absolute;
+    top: 715%;
+}
+
+.first {
+    width: 30%;
+    height: 100%;
+    position: relative;
+    /* background-color: blue; */
+}
+
+.first h1 {
+    font-size: 25px;
+    position: relative;
+    left: 10%;
+    top: 80px;
+}
+
+.first .sapn {
+    width: 10%;
+    border: 2px solid #D8B227;
+    position: relative;
+    left: 11%;
+    top: 90px;
+}
+
+.first p {
+    position: relative;
+    top: 120px;
+    left: 10%;
+}
+
+.first pre {
+    position: relative;
+    top: 122px;
+    left: 9%;
+}
+
+.first #fb {
+    position: relative;
+    top: 124px;
+    left: 10%;
+}
+
+.sec {
+    width: 30%;
+    height: 99.5%;
+    position: relative;
+    /* background-color: blue; */
+    left: 35%;
+    top: -308px;
+}
+
+.sec h1 {
+    font-size: 25px;
+    position: relative;
+    left: 10%;
+    top: 80px;
+}
+
+.sec .sapn {
+    width: 10%;
+    border: 2px solid #D8B227;
+    position: relative;
+    left: 11%;
+    top: 90px;
+}
+
+.sec .vertical {
+    position: absolute;
+    left: 10%;
+    top: 48%;
+}
+
+.sec .vertical a {
+    color: black;
+    text-decoration: none;
+    display: block;
+    font-size: 15px;
+    padding: 9px;
+}
+
+.sec .soc {
+    position: relative;
+    left: 100%;
+    top: -71px;
+}
+
+.sec .co {
+    position: relative;
+    left: 240%;
+    top: -139px;
+}
+
+.third {
+    width: 30%;
+    height: 99.7%;
+    position: relative;
+    left: 70%;
+    top: -617px;
+}
+
+.third h1 {
+    font-size: 25px;
+    position: absolute;
+    left: 10%;
+    top: 80px;
+}
+
+.third .sapn {
+    width: 10%;
+    border: 2px solid #D8B227;
+    position: relative;
+    left: 11%;
+    top: 120px;
+}
+
+.form input {
+    position: relative;
+    left: 10%;
+    top: 140px;
+    height: 5vh;
+    width: 60%;
+    border: none;
+}
+
+
+.form .submit {
+    width: 10%;
+    height: 5vh;
+    background-color: #D8B227;
+    position: relative;
+    left: 70%;
+    top: 109px;
+    cursor: pointer;
+}
+
+.form .submit img {
+    width: 70%;
+    position: relative;
+    left: 6px;
+    top: 2px;
+}
+
+.social {
+    width: 80%;
+    height: 10vh;
+    position: absolute;
+    left: 10%;
+    top: 60%;
+}
+
+.social .facebook {
+    position: relative;
+    top: 16px;
+}
+
+.social .facebook img {
+    cursor: pointer;
+}
+
+.social .instagram {
+    position: absolute;
+    top: 12px;
+    left: 70px;
+}
+
+.social .instagram img {
+    width: 140%;
+    cursor: pointer;
+}
+
+.social .twitter {
+    position: absolute;
+    top: 19px;
+    left: 150px;
+}
+
+.social .twitter img {
+    width: 50%;
+    cursor: pointer;
+}
